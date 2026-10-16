@@ -29,7 +29,7 @@ Los testimonios se presentan mediante códigos para conservar el anonimato. Los 
 
 ## Sitio web
 
-[Visitar Esta es por Fiore link](https://arihuz124.github.io/proyecto2/)
+[Visitar Esta es por Fiore link](https://arihuz124.github.io/Proyecto-por-Fiore/)
 
 ## Fuentes y créditos
 
