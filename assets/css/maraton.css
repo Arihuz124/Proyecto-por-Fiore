@@ -253,3 +253,12 @@ img { max-width: 100%; }
 @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after { transition: none !important; animation: none !important; }
 }
+/* Evitar la barra de desplazamiento visible del menú lateral */
+#sidebar {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+#sidebar::-webkit-scrollbar {
+    display: none;
+}
