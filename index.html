@@ -37,6 +37,7 @@
                         <li><a href="#three">Galería</a></li>
                         <li><a href="#four">Aprendizajes</a></li>
                         <li><a href="#five">El proyecto</a></li>
+                        <li><a href="#six">Contacto</a></li>
                     </ul>
                 </nav>
                 <p class="sidebar-note">Puerto Azul<br />03 de octubre de 2026</p>
@@ -225,6 +226,126 @@
                             <div><dt>Responsable de las entrevistas</dt><dd>Sebastián Toral</dd></div>
                             <div><dt>Registro de campo</dt><dd>Puerto Azul · 3 de octubre de 2026</dd></div>
                         </dl>
+                    </div>
+                </div>
+                
+            <!-- Contacto e interés en futuras carreras -->
+            <section id="six" class="wrapper style2 fade-up" aria-labelledby="contacto-titulo">
+                <div class="inner">
+                    <p class="eyebrow">06 / Contacto</p>
+                    <h2 id="contacto-titulo">Sigamos corriendo por una buena causa.</h2>
+                    <p class="section-intro">
+                        ¿Te gustaría participar en una próxima carrera solidaria?
+                        Déjanos tus datos y cuéntanos cómo te gustaría formar parte
+                        de una nueva iniciativa por Fiore.
+                    </p>
+
+                    <div class="contacto-grid">
+                        <div>
+                            <h3>Queremos conocerte</h3>
+                            <p>
+                                Completa este formulario para expresar tu interés
+                                en participar, colaborar o ser voluntario en
+                                futuras actividades solidarias.
+                            </p>
+
+                            <form method="POST"
+                                  action="https://formsubmit.co/arihuzicaza2@gmail.com">
+
+                                <input type="hidden" name="_subject"
+                                       value="Nuevo interesado - Esta es por Fiore">
+                                <input type="hidden" name="_captcha" value="true">
+
+                                <div class="fields">
+                                    <div class="field half">
+                                        <label for="nombre">Nombre completo</label>
+                                        <input type="text" name="nombre"
+                                               id="nombre" minlength="3"
+                                               maxlength="80" autocomplete="name"
+                                               required />
+                                    </div>
+
+                                    <div class="field half">
+                                        <label for="correo">Correo electrónico</label>
+                                        <input type="email" name="email"
+                                               id="correo" autocomplete="email"
+                                               required />
+                                    </div>
+
+                                    <div class="field half">
+                                        <label for="celular">Número de celular</label>
+                                        <input type="tel" name="celular"
+                                               id="celular" inputmode="tel"
+                                               pattern="[0-9+() -]{7,18}"
+                                               title="Ingresa un número telefónico válido"
+                                               autocomplete="tel" required />
+                                    </div>
+
+                                    <div class="field half">
+                                        <label for="participacion">¿Cómo deseas participar?</label>
+                                        <select name="participacion"
+                                                id="participacion" required>
+                                            <option value="">Selecciona una opción</option>
+                                            <option value="Corredor">Como corredor</option>
+                                            <option value="Voluntario">Como voluntario</option>
+                                            <option value="Colaborador">Como colaborador</option>
+                                            <option value="Informacion">Recibir información</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="field">
+                                        <label for="mensaje">Tu mensaje</label>
+                                        <textarea name="mensaje" id="mensaje"
+                                                  rows="5" minlength="10"
+                                                  maxlength="1000"
+                                                  placeholder="Cuéntanos por qué te gustaría participar..."
+                                                  required></textarea>
+                                    </div>
+                                </div>
+
+                                <ul class="actions">
+                                    <li>
+                                        <button type="submit" class="button primary">
+                                            Enviar mi interés
+                                        </button>
+                                    </li>
+                                </ul>
+                            </form>
+                        </div>
+
+                        <div class="contacto-ubicacion">
+                            <h3>¿Dónde se realizó la carrera?</h3>
+                            <p>
+                                La carrera solidaria «Esta es por Fiore»
+                                se realizó el 3 de octubre de 2026 en
+                                Puerto Azul, Guayaquil.
+                            </p>
+
+                            <a href="https://maps.app.goo.gl/Z8Nwp6n1zay669jEA?g_st=iw"
+                               target="_blank" rel="noopener noreferrer"
+                               class="mapa-enlace"
+                               aria-label="Abrir la ubicación del evento en Google Maps">
+                                <img src="images/maraton/ubicacion-fiore.png"
+                                     alt="Mapa de la ubicación señalada en Parque Mamina, Puerto Azul"
+                                     loading="lazy" />
+                            </a>
+
+                            <p class="mapa-descripcion">
+                                <strong>Referencia:</strong> Parque Mamina,
+                                urbanización Puerto Azul.
+                            </p>
+
+                            <a href="https://maps.app.goo.gl/Z8Nwp6n1zay669jEA?g_st=iw"
+                               class="button"
+                               target="_blank" rel="noopener noreferrer">
+                                Ver ubicación en Google Maps
+                            </a>
+
+                            <p class="contacto-nota">
+                                Esta información corresponde al evento realizado
+                                y no confirma el lugar de futuras carreras.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </section>
